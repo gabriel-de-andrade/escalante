@@ -1,0 +1,38 @@
+header {
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}
+
+#logo > svg {
+    transition: transform .8s ease-in-out;
+}
+
+#logo:hover > svg {
+    transform: rotate(360deg);
+}
+
+.container {
+    max-width: 720px;
+}
+
+main {
+    margin-top: -6rem;
+}
+
+.tag {
+    font-size: .8rem;
+}
+
+.text-decoration-dotted {
+    border-bottom: 1px dotted;
+}
+
+.bi {
+    width: 1em;
+    height: 1em;
+    vertical-align: -.125em;
+}
+
+.toast:last-child {
+    margin-bottom: 0px !important;
+}
