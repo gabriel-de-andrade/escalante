@@ -1,5 +1,6 @@
 {
   "devDependencies": {
-    "vercel": "^25.1.0"
+    "vercel": "^25.1.0",
+    "workbox-cli": "^6.5.3"
   }
 }
